@@ -1,0 +1,63 @@
+/* BENEFÍCIOS DO SERVIÇO */
+.benefits {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefits-cards {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.benefit-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: .6s;
+}
+
+.benefit-card:hover {
+    opacity: 1;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.benefit-icon {
+    color: #fff;
+    font-size: 64px;
+}
+
+.benefit-text {
+    margin-top: 10px;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}

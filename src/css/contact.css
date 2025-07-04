@@ -1,0 +1,35 @@
+/* CONTATO */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact-section .subtitle {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn.wpp-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #347433;
+    padding: 10px 30px;
+}
+
+.btn.wpp-btn:hover {
+    background-color: #16610E;
+    color: #fff;
+    transform: scale(1.1) translateY(-5px);
+}
+
+.wpp-icon {
+    font-size: 24px;
+}
