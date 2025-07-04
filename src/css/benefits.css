@@ -61,3 +61,16 @@
     font-weight: 300;
     text-align: center;
 }
+
+@media (max-width: 750px) {
+    .benefits-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .benefit-card {
+        padding: 0px;
+        background: transparent;
+        opacity: 1;
+    }
+}

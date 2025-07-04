@@ -57,17 +57,6 @@
         margin: 10px;
     }
 
-    .services, .benefits-cards {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-    }
-
-    .service-card, .benefit-card {
-        padding: 0px;
-        background: transparent;
-        opacity: 1;
-    }
-
     .service-icon, .benefit-icon {
         font-size: 32px;
     }
