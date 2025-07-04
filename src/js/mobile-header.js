@@ -1,6 +1,6 @@
 const menuIcon = document.getElementById("menu-icon")
 const menu = document.getElementById("nav-mobile")
-const menuLinks = document.querySelectorAll("#nav-mobile a")
+const menuLinks = document.querySelectorAll("#header a")
 const page = document.body
 
 menuIcon.addEventListener("click", () => {
