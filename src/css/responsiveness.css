@@ -1,0 +1,95 @@
+@media (max-width: 750px) {
+    .menu-mobile {
+        display: flex;
+        color: #fff;
+        font-size: 48px;
+        z-index: 1000;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        background-color: #222;
+        width: 100%;
+        height: 100vh;
+        z-index: -3;
+        transition: 1s all;
+    }
+
+    .nav-mobile.open {
+        transform: translateX(-100%);
+        transition: 1s all;
+    }
+
+    .nav-mobile li a {
+        color: #fff;
+    }
+
+    nav {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .btn-header {
+        padding: 5px 10px;
+        display: none;
+    }
+
+    .btn-mobile-header {
+        display: block;
+    }
+
+    .gallery, .services-section, .benefits, .testimonials-section {
+        border: none;
+        border: 2px solid #fff;
+        border-radius: 0px;
+        margin: 10px;
+    }
+
+    .services, .benefits-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .service-card, .benefit-card {
+        padding: 0px;
+        background: transparent;
+        opacity: 1;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .btn-header {
+        display: none;
+    }
+
+    .btn-mobile-header {
+        display: block;
+        margin: 10px;
+    }
+
+    .service-icon, .benefit-icon {
+        font-size: 32px;
+    }
+
+    .service-title, .benefit-title {
+        font-size: 18px;
+    }
+}

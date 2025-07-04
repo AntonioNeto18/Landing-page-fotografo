@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsiveness.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Swipper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- JS -->
+    <script defer src="./src/js/testimonials.js"></script>
+    <script defer src="./src/js/scroll-reveal.js"></script>
+    <script defer src="./src/js/scroll-header.js"></script>
+    <script defer src="./src/js/mobile-header.js"></script>
+
+    <title>Landing page</title>
+</head>
+
+<body>
+    <div class="body-background"></div>
+    <header id="header">
+        <a href="#hero-section"><img class="logo" src="./src/assets/logo.png" alt="Logo"></a>
+        <nav>
+            <ul class="nav-desktop">
+                <li><a href="#hero-section">Início</a></li>
+                <li><a href="#gallery-section">Portfólio</a></li>
+                <li><a href="#services-section">Serviços</a></li>
+                <li><a href="#testimonials-section">Depoimntos</a></li>
+            </ul>
+            <i class="bi bi-list menu-mobile" id="menu-icon"></i>
+            <ul class="nav-mobile" id="nav-mobile">
+                <li><a href="#hero-section">Início</a></li>
+                <li><a href="#gallery-section">Portfólio</a></li>
+                <li><a href="#services-section">Serviços</a></li>
+                <li><a href="#testimonials-section">Depoimntos</a></li>
+
+                <a class="btn btn-header btn-mobile-header" href="#contact-section">Agendar Ensaio</a>
+            </ul>
+            <a class="btn btn-header" href="#contact-section">Agendar Ensaio</a>
+        </nav>
+        
+    </header>
+
+    <section class="hero-section" id="hero-section">
+        <h1 class="title">Transforme momentos em memórias inesquecíveis</h1>
+        <p class="subtitle">Ensaios, eventos e casamentos com um olhar sensível, profissional e apaixonado por contar histórias através da fotografia.</p>
+        <a href="#contact-section" class="btn btn-hero">Agendar Ensaio</a>
+    </section>
+
+    <section class="container gallery" id="gallery-section">
+        <h2 class="section-title">Trabalhos</h2>
+        <div class="gallery-container">
+            <img class="gallery-image image-1 image-effect-1" src="./src/assets/image-1.png" alt="Imagem 1">
+            <img class="gallery-image image-2 image-effect-2" src="./src/assets/image-2.png" alt="Imagem 2">
+            <img class="gallery-image image-3 image-effect-3" src="./src/assets/image-3.png" alt="Imagem 3">
+            <img class="gallery-image image-4 image-effect-4" src="./src/assets/image-4.png" alt="Imagem 4">
+            <img class="gallery-image image-5 image-effect-5" src="./src/assets/image-5.png" alt="Imagem 5">
+            <img class="gallery-image image-6 image-effect-6" src="./src/assets/image-6.png" alt="Imagem 6">
+            <img class="gallery-image image-7 image-effect-7" src="./src/assets/image-7.png" alt="Imagem 7">
+            <img class="gallery-image image-8 image-effect-8" src="./src/assets/image-8.png" alt="Imagem 8">
+        </div>
+    </section>
+
+    <section class="container services-section" id="services-section">
+        <h2 class="section-title">Serviços oferecidos</h2>
+        <div class="services">
+            <article class="service-card">
+                <div class="service">
+                    <i class="bi bi-people service-icon"></i>
+                    <h2 class="service-title">Ensaios individuais, casal, família</h2>
+                </div>
+                <a class="btn" href="#contact-section">Agendar Ensaio</a>
+            </article>
+
+            <article class="service-card">
+                <div class="service">
+                    <i class="bi bi-calendar-event service-icon"></i>
+                    <h2 class="service-title">Cobertura de eventos sociais</h2>
+                </div>
+                <a class="btn" href="#contact-section">Agendar Ensaio</a>
+            </article>
+            
+            <article class="service-card">
+                <div class="service">
+                    <i class="bi bi-cake2 service-icon"></i>
+                    <h2 class="service-title">Pré-wedding e casamentos</h2>
+                </div>
+                <a class="btn" href="#contact-section">Agendar Ensaio</a>
+            </article>
+            
+            <article class="service-card">
+                <div class="service">
+                    <i class="bi bi-person-square service-icon"></i>
+                    <h2 class="service-title">Retratos profissionais</h2>
+                </div>
+                <a class="btn" href="#contact-section">Agendar Ensaio</a>
+            </article>
+            
+        </div>
+    </section>
+
+    <section class="container benefits">
+        <h2 class="section-title">Por que escolher o meu trabalho?</h2>
+        <div class="benefits-cards">
+            <article class="benefit-card">
+                <div class="benefit">
+                    <i class="bi bi-camera benefit-icon"></i>
+                    <h2 class="benefit-title">Olhar artístico</h2>
+                </div>
+                <p class="benefit-text">Cada clique é pensado para capturar sua essência.</p>
+            </article>
+            <article class="benefit-card">
+                <div class="benefit">
+                    <i class="bi bi-alarm benefit-icon"></i>
+                    <h2 class="benefit-title">Pontualidade e compromisso</h2>
+                </div>
+                <p class="benefit-text">Cada clique é pensado para capturar sua essência.</p>
+            </article>
+            <article class="benefit-card">
+                <div class="benefit">
+                    <i class="bi bi-person benefit-icon"></i>
+                    <h2 class="benefit-title">Atendimento personalizado</h2>
+                </div>
+                <p class="benefit-text">Ensaio urbano, na natureza ou em estúdio, você escolhe.</p>
+            </article>
+            <article class="benefit-card">
+                <div class="benefit">
+                    <i class="bi bi-pen benefit-icon"></i>
+                    <h2 class="benefit-title">Edição profissional</h2>
+                </div>
+                <p class="benefit-text">Fotos com tratamento de imagem sem perder a naturalidade.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="container testimonials-section" id="testimonials-section">
+        <h2 class="section-title">O que meus clientes dizem</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <span class="testimonial-rate">
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                    </span>
+                    <div class="testimonial">
+                        <p class="testimonial-text">Me emocionei com cada foto! O ensaio ficou leve e as fotos ficaram perfeitas.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img class="testimonial-avatar" src="./src/assets/avatar-1.png" alt="">
+                        <span class="testimonial-name">Mariana Lopes</span>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <span class="testimonial-rate">
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                        <i class="bi bi-star-fill star"></i>
+                    </span>
+                    <div class="testimonial">
+                        <p class="testimonial-text">Contratei para um evento da empresa e o resultado foi incrível. Super profissional.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img class="testimonial-avatar" src="./src/assets/avatar-2.png" alt="">
+                        <span class="testimonial-name">Daniel Rocha</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="container contact-section" id="contact-section">
+        <h2 class="section-title">Vamos registrar o seu momento especial?</h2>
+        <p class="subtitle">Clique no botão abaixo e fale comigo direto no WhatsApp!</p>
+        <a href="https://wa.me/5511984605852?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20ensaio%20de%20fotos" class="btn wpp-btn" target="_blank">
+            <i class="bi bi-whatsapp wpp-icon"></i>
+            <span class="wpp-text">Agendar Ensaio</span>
+        </a>
+    </section>
+
+</body>
+
+</html>
