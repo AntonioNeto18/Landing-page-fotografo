@@ -48,7 +48,7 @@
         display: block;
     }
 
-    .gallery, .services-section, .benefits, .testimonials-section {
+    .gallery, .services-section, .benefits, .testimonials-section, .contact-section {
         border: none;
         border: 2px solid #fff;
         border-radius: 0px;
