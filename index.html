@@ -26,12 +26,19 @@
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- LIGHTBOX GALLERY -->
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script> <!-- BIBLIOTECA -->
+    <script defer src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script> <!-- ZOOM -->
+    <script defer src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/fullscreen/lg-fullscreen.umd.min.js"></script> <!-- FULLSCREEN -->
+
 
     <!-- JS -->
     <script defer src="./src/js/testimonials.js"></script>
     <script defer src="./src/js/scroll-reveal.js"></script>
     <script defer src="./src/js/scroll-header.js"></script>
     <script defer src="./src/js/mobile-header.js"></script>
+    <script defer src="./src/js/gallery.js"></script>
 
     <title>Landing page</title>
 </head>
@@ -69,15 +76,31 @@
 
     <section class="container gallery" id="gallery-section">
         <h2 class="section-title">Trabalhos</h2>
-        <div class="gallery-container">
-            <img class="gallery-image image-1 image-effect-1" src="./src/assets/image-1.png" alt="Imagem 1">
-            <img class="gallery-image image-2 image-effect-2" src="./src/assets/image-2.png" alt="Imagem 2">
-            <img class="gallery-image image-3 image-effect-3" src="./src/assets/image-3.png" alt="Imagem 3">
-            <img class="gallery-image image-4 image-effect-4" src="./src/assets/image-4.png" alt="Imagem 4">
-            <img class="gallery-image image-5 image-effect-5" src="./src/assets/image-5.png" alt="Imagem 5">
-            <img class="gallery-image image-6 image-effect-6" src="./src/assets/image-6.png" alt="Imagem 6">
-            <img class="gallery-image image-7 image-effect-7" src="./src/assets/image-7.png" alt="Imagem 7">
-            <img class="gallery-image image-8 image-effect-8" src="./src/assets/image-8.png" alt="Imagem 8">
+        <div class="gallery-container" id="gallery-container">
+            <a href="./src/assets/image-1.png" class="image-1">
+                <img class="gallery-image image-effect-1" src="./src/assets/image-1.png" alt="Imagem 1">
+            </a>
+            <a href="./src/assets/image-2.png" class="image-2">
+                <img class="gallery-image image-effect-2" src="./src/assets/image-2.png" alt="Imagem 2">
+            </a>
+            <a href="./src/assets/image-3.png" class="image-3">
+                <img class="gallery-image image-effect-3" src="./src/assets/image-3.png" alt="Imagem 3">
+            </a>
+            <a href="./src/assets/image-4.png" class="image-4">
+                <img class="gallery-image image-effect-4" src="./src/assets/image-4.png" alt="Imagem 4">
+            </a>
+            <a href="./src/assets/image-5.png" class="image-5">
+                <img class="gallery-image image-effect-5" src="./src/assets/image-5.png" alt="Imagem 5">
+            </a>
+            <a href="./src/assets/image-6.png" class="image-6">
+                <img class="gallery-image image-effect-6" src="./src/assets/image-6.png" alt="Imagem 6">
+            </a>
+            <a href="./src/assets/image-7.png" class="image-7">
+                <img class="gallery-image image-effect-7" src="./src/assets/image-7.png" alt="Imagem 7">
+            </a>
+            <a href="./src/assets/image-8.png" class="image-8">
+                <img class="gallery-image image-effect-8" src="./src/assets/image-8.png" alt="Imagem 8">
+            </a>
         </div>
     </section>
 
