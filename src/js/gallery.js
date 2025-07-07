@@ -3,4 +3,5 @@ lightGallery(document.getElementById('gallery-container'), {
     mode: 'lg-slide',
     speed: 400,
     hideBarsDelay: 3000,
+    subHtmlSelectorRelative: false
 });

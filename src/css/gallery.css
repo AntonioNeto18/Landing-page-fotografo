@@ -21,6 +21,14 @@
     margin-top: 20px;
 }
 
+.lg-sub-html {
+  display: none;
+}
+
+.lg-outer .lg-img-wrap {
+    padding: 10px
+}
+
 .gallery-container a {
     transition: .3s;
 }
